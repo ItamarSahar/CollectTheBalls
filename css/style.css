@@ -1,0 +1,48 @@
+body {background-color: black; color:white}
+
+.cell {width:40px; height:40px;text-align: center}
+.cell img {width:25px; height:auto}
+.floor {background-color: gray}
+.wall {background-color: brown}
+
+.modal, .glueModal {
+    font-size: 30px;
+    background-color: gray;
+    text-align: center;
+    display: none;
+    border: 3px solid lightblue;
+    width: 500px;
+    height: 300px;
+    padding: auto;
+    margin: auto;
+}
+
+.close {
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+	margin: 15px;
+	font-size: 16px;
+	border: 3px solid lightblue;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.restart {
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+	margin: auto;
+	font-size: 16px;
+	border: 3px solid lightblue;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+	color: white;
+}
